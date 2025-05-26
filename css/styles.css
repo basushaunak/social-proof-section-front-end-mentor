@@ -58,7 +58,7 @@ img{
 .testimonials{
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5rem;
 }
 .testimonial-card{
     background-color: var(--primary-color-dark);
@@ -124,6 +124,7 @@ img{
     }
     .testimonials{
         flex-direction: row;
+        gap: 0.5rem;
     }
     .testimonial-card:nth-child(1){
         margin-block-end: 0px;
